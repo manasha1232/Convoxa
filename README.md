@@ -30,6 +30,8 @@
 🍃 MongoDB (Motor)
 ⚡ Redis (optional for caching)
 ☁️ Cloudinary (for media uploads)
+
+
 📂 Project Structure
 chatapp/
 │
@@ -48,6 +50,7 @@ chatapp/
 │   ├── components/
 │   ├── pages/
 │   └── App.jsx
+
 ⚙️ Setup Instructions
 🔹 1. Clone the repo
 git clone https://github.com/yourusername/chatapp.git
