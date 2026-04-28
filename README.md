@@ -1,4 +1,5 @@
-<img width="2559" height="1316" alt="Screenshot 2026-04-28 210459" src="https://github.com/user-attachments/assets/333ed9dc-e870-426d-97e4-ef79faa76ec4" />📌 ChatApp (Convoxa)
+📌 ChatApp (Convoxa)
+<img width="2232" height="705" alt="Screenshot 2026-04-28 210747" src="https://github.com/user-attachments/assets/45c81d13-848d-462c-bde8-7b6ce89b29ca" />
 
 💬 Real-time chat application with secure authentication, email verification, and modern UI.
 
