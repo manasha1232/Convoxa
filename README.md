@@ -42,28 +42,7 @@
 
 ---
 
-## 📂 Project Structure
 
-
-chatapp/
-│
-├── backend/
-│ ├── app/
-│ │ ├── api/
-│ │ ├── core/
-│ │ ├── db/
-│ │ ├── models/
-│ │ ├── services/
-│ │ └── main.py
-│ └── .env
-│
-├── frontend/
-│ ├── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.jsx
-
----
 
 ## ⚙️ Setup Instructions
 
