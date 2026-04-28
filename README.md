@@ -45,37 +45,39 @@
 ## 📂 Project Structure
 
 
-📂 Project Structure
 chatapp/
 │
 ├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   ├── core/
-│   │   ├── db/
-│   │   ├── models/
-│   │   ├── services/
-│   │   └── main.py
-│   └── .env
+│ ├── app/
+│ │ ├── api/
+│ │ ├── core/
+│ │ ├── db/
+│ │ ├── models/
+│ │ ├── services/
+│ │ └── main.py
+│ └── .env
 │
 ├── frontend/
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── App.jsx
+│ ├── src/
+│ ├── components/
+│ ├── pages/
+│ └── App.jsx
 
-⚙️ Setup Instructions
-🔹 1. Clone the repo
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone Repository
 git clone https://github.com/yourusername/chatapp.git
 cd chatapp
-🔹 2. Backend Setup
+2️⃣ Backend Setup
 cd backend
 python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
-🔹 3. Configure .env
+3️⃣ Configure Environment Variables
 
-Create a .env file inside backend/:
+Create .env inside backend/:
 
 MONGO_URI=your_mongodb_uri
 
@@ -83,27 +85,28 @@ EMAIL_HOST=smtp.gmail.com
 EMAIL_PORT=587
 EMAIL_USER=yourgmail@gmail.com
 EMAIL_PASS=your_app_password
-FROM_EMAIL=yourgmail@gmail.com
 
 FRONTEND_URL=http://localhost:5173
-🔹 4. Run Backend
+4️⃣ Run Backend
 uvicorn app.main:app --reload
 
-👉 Backend runs on: http://localhost:8000
+Backend runs at:
+👉 http://localhost:8000
 
-🔹 5. Frontend Setup
+5️⃣ Frontend Setup
 cd ../frontend
 npm install
 npm run dev
 
-👉 Frontend runs on: http://localhost:5173
+Frontend runs at:
+👉 http://localhost:5173
 
 🔑 Authentication Flow
 User registers
-Verification email is sent 📩
-User clicks link → email verified
-User can login
-JWT token used for protected routes
+Verification email sent 📩
+User clicks link → verified
+Login allowed
+JWT used for API access
 🔌 API Endpoints
 Auth
 POST /api/auth/register
@@ -111,20 +114,13 @@ POST /api/auth/login
 GET /api/auth/verify-email
 POST /api/auth/resend-verification
 User
-GET /api/auth/me
 PUT /api/auth/profile
-💡 Key Concepts Used
-Async backend (FastAPI + Motor)
-WebSockets for real-time chat
-Token-based authentication (JWT)
-Email verification system
-State management (Zustand)
-Modular backend architecture
-🔒 Security Features
+GET /api/auth/me
+
+🔒 Security
 Password hashing (bcrypt)
-Email verification before login
-JWT-based authentication
-Secure API routes
+Email verification required
+JWT authentication
 
 📸 Screenshots
 
