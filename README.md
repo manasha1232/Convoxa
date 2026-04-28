@@ -1,35 +1,48 @@
-📌 ChatApp (Convoxa)
+# 📌 ChatApp (Convoxa)
 
 💬 Real-time chat application with secure authentication, email verification, and modern UI.
 
-🚀 Features
-🔐 JWT Authentication (Register/Login)
-📧 Email Verification (Gmail SMTP)
-💬 Real-time messaging (Socket.IO)
-🟢 Online/offline status
-🧑‍🤝‍🧑 Chat rooms & private messaging
-🖼️ Profile management (avatar, bio)
-🔔 Notification preferences
-🌙 Dark mode support
-📩 Invite friends via link
-🔒 Secure password handling (hashed)
-🛠️ Tech Stack
-🔹 Frontend
-⚛️ React (Vite)
-🎨 Tailwind CSS
-🔄 Zustand (state management)
-🔌 Socket.IO Client
-🍞 React Hot Toast
-🔹 Backend
-⚡ FastAPI
-🔌 Socket.IO (python-socketio)
-🧠 JWT Authentication
-📨 Gmail SMTP (aiosmtplib)
-🌐 REST APIs
-🔹 Database & Services
-🍃 MongoDB (Motor)
-⚡ Redis (optional for caching)
-☁️ Cloudinary (for media uploads)
+---
+
+## 🚀 Features
+
+- 🔐 JWT Authentication (Register/Login)
+- 📧 Email Verification (Gmail SMTP)
+- 💬 Real-time messaging (Socket.IO)
+- 🟢 Online/offline status
+- 🧑‍🤝‍🧑 Chat rooms & private messaging
+- 🖼️ Profile management (avatar, bio)
+- 🔔 Notification preferences
+- 🌙 Dark mode support
+- 📩 Invite friends via link
+- 🔒 Secure password handling (hashed)
+
+---
+
+## 🛠️ Tech Stack
+
+### 🔹 Frontend
+- ⚛️ React (Vite)
+- 🎨 Tailwind CSS
+- 🔄 Zustand (state management)
+- 🔌 Socket.IO Client
+- 🍞 React Hot Toast
+
+### 🔹 Backend
+- ⚡ FastAPI
+- 🔌 Socket.IO (python-socketio)
+- 🧠 JWT Authentication
+- 📨 Gmail SMTP (aiosmtplib)
+- 🌐 REST APIs
+
+### 🔹 Database & Services
+- 🍃 MongoDB (Motor)
+- ⚡ Redis (optional)
+- ☁️ Cloudinary (media uploads)
+
+---
+
+## 📂 Project Structure
 
 
 📂 Project Structure
