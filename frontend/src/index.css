@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; }
+  body { @apply bg-gray-50 text-gray-900 font-sans antialiased; }
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { @apply bg-transparent; }
+  ::-webkit-scrollbar-thumb { @apply bg-gray-300 rounded-full; }
+}
+
+@layer utilities {
+  .msg-bubble-sent {
+    @apply bg-brand-500 text-white rounded-2xl rounded-br-sm px-4 py-2 max-w-xs lg:max-w-md;
+  }
+  .msg-bubble-recv {
+    @apply bg-white text-gray-900 rounded-2xl rounded-bl-sm px-4 py-2 max-w-xs lg:max-w-md shadow-sm;
+  }
+}
